@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+div.title {
+    color: gray;
+}
+div.search-wrapper {
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 5px solid gray;
+    border-top: 5px solid gray;
+}
+company-list, create-company {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+div.company-details-wrapper {
+    display: block;
+    max-height: 400px;
+    overflow-y: auto;
+}
+div.company-details {
+    width: 100%;
+}
+div.action-wrapper {
+    margin: 20px 0;
+}
+span.is-small {
+    padding: 2px 5px;
+    cursor: pointer;
+}
+div.no-result {
+    margin: 10px 0;
+    color: #d9534f;
+    font-weight: bold;
+    border: 1px solid #d43f3a;
+    display: block;
+    padding: 0 5px;
+}

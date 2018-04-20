@@ -1,0 +1,14 @@
+<h3>Your Company List : {{searchResult}}</h3>
+<div class="search-wrapper">
+	<label for="">Search Company:</label>
+	<input type="text" (keyup)="search($event)" placeholder="Company Name..." class="input">
+</div>
+<div class="company-details-wrapper">
+	<div *ngFor="let company of companies" class="company-details">
+		<company-details [company]='company'></company-details>
+	</div>
+</div>
+<div class="no-result" *ngIf="searchResult == 0">There is no result...</div>
+<div class="action-wrapper">
+	<button type="button" class="button btn-danger" (click)='deleteCompany()'>Delete All</button>
+</div>
