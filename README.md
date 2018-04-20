@@ -1,6 +1,22 @@
-# Angular5FirebaseCRUD
+# Angular5-Firebase Realtime Database CURD Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
+
+## Environment
+
+Change firebase config information in `src/environments/environment.ts` into your info.
+
+export const environment = {
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyC19PmNcCGp7RMvH2zsWDW8KRQWdX1vXZY',
+    authDomain: 'company-sample-977f4.firebaseapp.com',
+    databaseURL: 'https://company-sample-977f4.firebaseio.com',
+    projectId: 'company-sample-977f4',
+    storageBucket: 'company-sample-977f4.appspot.com',
+    messagingSenderId: '439125903097'
+  }
+};
 
 ## Development server
 
